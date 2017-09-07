@@ -30,7 +30,7 @@ let dbPromise = null;
 
 const _create = async function() {
     console.log('DatabaseService: creating database..');
-    const db = await RxDB.create({name: 'heroesreactdb', adapter: 'idb', password: 'myLongAndStupidPassword'});
+    const db = await RxDB.create({name: 'heroedb', adapter: 'idb', password: 'myLongPassword'});
     console.log('DatabaseService: created database');
     window['db'] = db; // write to window for debugging
 
