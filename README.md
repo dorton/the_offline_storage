@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Most Heroes Wear Capes
 
-It also uses [RxDB](https://pubkey.github.io/rxdb)
+* this site uses React with PouchDB to via [RxDB](https://pubkey.github.io/rxdb) ensuring that both client-side databases are synced with cloud database even if clients go offline. Fear not super heroes, your cape classification is safe!
+* concurrently runs `npm run server` and `react-scripts start`.
+* the page will reload if you make edits.
 
 ## Available Scripts
 
@@ -10,11 +12,4 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:8888](http://localhost:8888) to view it in the browser.
-
-Concurrently runs `npm run server` and `react-scripts start`
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-
-Open the pouchDB database at [http://localhost:5984/_utils](http://localhost:5984/_utils).
+Open the pouchDB database at [http://localhost:5984/_utils](http://localhost:5984/_utils)
